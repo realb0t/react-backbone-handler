@@ -16,17 +16,13 @@ var Post = React.createClass({
     }
   },
   autobinding: true,
-  getInitialState: function() {
-    return {
-      title: null,
-      'post.description': null
-    }
-  },
   render: function() {
-    return <div>
-      <input name="title" 
-        value={this.state.title} 
-        onChange={this.handleChangeEvent.bind(this, 'post', 'title')} />
-    </div>;
+    return (
+      <div>
+        <input name="title" 
+          value={this.state.title} 
+          onChange={this.handleChangeEvent.bind(this, 'post', 'title')} />
+      </div>
+    );
   }
 });
