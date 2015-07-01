@@ -1,0 +1,17 @@
+{
+  "name": "react-backbone-handler",
+  "version": "0.0.1",
+  "authors": [
+    "realb0t realbot@mail.ru"
+  ],
+  "description": "React Mixin for observe Backbone model gived as prop",
+  "main": "lib/react_backbone_handler_mixin.js",
+  "keywords": [
+    "reactjs",
+    "backbone",
+    "handler",
+    "observer"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/realb0t/react-backbone-handler"
+}
