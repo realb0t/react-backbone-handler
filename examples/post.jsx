@@ -15,7 +15,7 @@ var Post = React.createClass({
       desc: 'post_description'
     }
   },
-  autobinding: true,
+  stopAutobinding: null,
   handleChangeDescription: function(e) {
     var desc = $(e.target).val();
     this.setState({ label: desc });

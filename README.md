@@ -1,6 +1,6 @@
 # react-backbone-handler
 
-React Mixin for observe Backbone model. This model is given as property of component.
+ReactJS Mixin for observe BackboneJS Model. This model is given as property of component.
 State field binding on separate model fields. If model field change, state field changed too.
 
 Use Example:
@@ -23,7 +23,7 @@ var Post = React.createClass({
       desc: 'post_description'
     }
   },
-  autobinding: true,
+  stopAutobinding: null, // set true to disable autobinding
   handleChangeDescription: function(e) {
     var desc = $(e.target).val();
     this.setState({ label: desc });
