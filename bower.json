@@ -2,7 +2,7 @@
   "name": "react-backbone-handler",
   "version": "0.0.3",
   "authors": [
-    "realb0t realbot@mail.ru"
+    "Kazantsev Nickolay kazantsev.nickolay@gmail.com"
   ],
   "description": "React Mixin for observe Backbone model. This model is given as property of component.",
   "main": "lib/react_backbone_handler_mixin.js",
@@ -12,6 +12,17 @@
     "handler",
     "observer"
   ],
+  "dependencies": {
+    "backbone": "~1.1.2"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/realb0t/react-backbone-handler"
+  "homepage": "https://github.com/realb0t/react-backbone-handler",
+  "ignore": [
+    "examples"
+  ]
 }
