@@ -1,9 +1,15 @@
-# react-backbone-handler
+# `react-backbone-handler`
 
 ReactJS Mixin for observe BackboneJS Model. This model is given as property of component.
 State field binding on separate model fields. If model field change, state field changed too.
 
-Use Example:
+## Bower install
+
+```
+  $ bower install react-backbone-handler --save
+```
+
+## Use Example
 
 ```js
 var Post = React.createClass({
